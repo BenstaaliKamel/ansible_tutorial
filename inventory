@@ -1,3 +1,5 @@
-debian1@192.168.32.11
-debian2@192.168.32.12
-debian3@192.168.32.13
+[all]
+debian1@192.168.32.11 ansible_user=debian1 ansible_become_pass=debian1
+debian2@192.168.32.12 ansible_user=debian2 ansible_become_pass=debian2
+debian3@192.168.32.13 ansible_user=debian3 ansible_become_pass=debian3
+
